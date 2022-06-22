@@ -10,11 +10,11 @@ export function MakeDelay(milisec) {
 	})
 }
 
-export var delay = 200
+export var delay = 50;
 export const PRIMARY_COLOR = 'rgb(99, 156, 255)'; //light blue
-export const FINAL_COLOR = 'rgb(50,205,50)';
+export const FINAL_COLOR = 'rgb(50,205,50)'; //green
 export const POSITION_FINAL_COLOR = 'rgb(183, 51, 245)'; //purple
-export const COMPARE_COLOR = 'blue';
+export const COMPARE_COLOR = 'blue'; //dark blue
 export const SWAP_COLOR = 'red';
 export const MIN_COLOR = 'rgb(255, 112, 31)' //orange-ish
 

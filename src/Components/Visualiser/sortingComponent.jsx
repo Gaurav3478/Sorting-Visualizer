@@ -82,7 +82,7 @@ function SortingComponent() {
 				<label className='sliderLabel'>
 					Delay:
 					<br />
-					<input type='range' min='5' max='200' onChange={(e) => { changeDelay(e.target.value) }} />
+					<input type='range' min='5' max='500' onChange={(e) => { changeDelay(e.target.value) }} />
 				</label>
 				<br />
 				<br />

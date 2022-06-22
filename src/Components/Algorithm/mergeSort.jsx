@@ -13,10 +13,9 @@ async function inPlaceMerge(arr, s, e) {
 	var g = gap(e - s + 1);
 
 	for (var i = s; i <= e; i++) {
-		await MakeDelay(20);
+		await MakeDelay(delay);
 		arr[i].style.background = COMPARE_COLOR;
 	}
-
 
 	for (g; g > 0; g = gap(g)) {
 		for (i = s; i + g <= e; i++) {
