@@ -26,7 +26,7 @@ async function inPlaceMerge(arr, s, e) {
 			if (parseInt(arr[i].style.height) > parseInt(arr[j].style.height)) {
 				arr[i].style.background = SWAP_COLOR;
 				arr[j].style.background = SWAP_COLOR;
-				await MakeDelay(delay);
+				await MakeDelay(delay); //problem was here
 				Swap(arr[i], arr[j]);
 			}
 			await MakeDelay(delay);
